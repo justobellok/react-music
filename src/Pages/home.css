@@ -1,0 +1,40 @@
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 15px;
+    background: #C04848;
+}
+
+.inicio{
+    text-align: center;
+    color: white;
+}
+
+.inicio button{
+    border: none;
+    padding: 20px 30px;
+    background: #ED4264;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+article{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.title{
+    margin: 20px;
+    text-align: center;
+}

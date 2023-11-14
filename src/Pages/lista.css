@@ -1,0 +1,64 @@
+.dad{
+    margin: 25px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    width: 320px;
+   color: white;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #4CB8C4;
+}
+
+.lista img{
+    width: 48px;
+    height: 48px;
+    border-radius: 990px;
+    border: 1px solid #3CD3AD;
+    object-fit: cover;
+}
+
+.info p{
+    opacity: 0.4;
+}
+
+.dad button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.dad button:active{
+    transform: scale(.9);
+}
+
+
+
+.play{
+    margin: 25px;
+}
+
+.repro{
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    right: 0;
+  color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    background: linear-gradient(#DC2424, #4A569D);
+}
+
+.repro img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}

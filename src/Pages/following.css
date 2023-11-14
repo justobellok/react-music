@@ -1,0 +1,12 @@
+.sigues{
+    text-align: center;
+}
+
+.sigues img{
+    object-fit: cover;
+}
+
+.sigues h1{
+    margin: 10px;
+    font-weight: bold;
+}

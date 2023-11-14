@@ -1,0 +1,25 @@
+.contenido{
+    margin: 20px;
+    display: flex;
+    background-color: #DD5E89;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.contenido img{
+    object-fit: cover;
+    width: 200px;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.usuario{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.texto{
+    text-align: justify;
+    font-weight: 400;
+}
