@@ -14,7 +14,7 @@ function Lista({ imagen, cantante, apodo }) {
                 <p> {apodo} </p>
             </div>
             <div>
-                <button>Reproducir</button>
+                <button>Repro</button>
             </div>
 
 
